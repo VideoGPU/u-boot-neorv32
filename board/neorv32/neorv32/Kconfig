@@ -15,7 +15,7 @@ config SYS_CONFIG_NAME
 	default "neorv32"
 
 config TEXT_BASE
-	default 0x80000000
+	default 0x00000000
 
 config BOARD_SPECIFIC_OPTIONS
 	def_bool y
